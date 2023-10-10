@@ -28,7 +28,7 @@ footer {
 nav {
     border: 1px solid red;
     border-radius: 1rem;
-    background-image: url("./images/gate.jpg");
+    background-image: url("");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -58,7 +58,7 @@ nav a {
 }
 
 .picture1 {
-    background-image: url("./images/fuji.jpg");
+    background-image: url("");
     width: 300px;
     height: 300px;
     margin: 1rem;
@@ -72,7 +72,7 @@ nav a {
 }
 
 .picture3 {
-    background-image: url("./images/ryutaro.jpg");
+    background-image: url("");
     width: 300px;
     height: 300px;
     margin: 1rem auto;
@@ -80,14 +80,14 @@ nav a {
 }
 
 .picture4klein {
-    background-image: url("./images/ricardo.jpg");
+    background-image: url("");
     width: 100px;
     height: 100px;
     margin: 1rem;
 }
 
 .picture4gross {
-    background-image: url("./images/nightlife.jpg");
+    background-image: url("");
     width: 300px;
     height: 300px;
     margin: 1rem;
