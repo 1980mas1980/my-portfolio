@@ -1,0 +1,147 @@
+body {
+    font-family: 'Courier New', Courier, fantasy;
+    font-size: 22px;
+}
+
+h1,
+h2 {
+    font-size: 34px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+#whole-profile {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+}
+
+#main-profile {}
+
+#main-profile {
+    margin-left: 40px;
+}
+
+#main-profile h1,
+h2 {
+    align-content: flex-start;
+}
+
+#main-profile h3 {
+    align-content: flex-start;
+}
+
+#main-profile p {}
+
+#profile-picture img {
+    width: 200px;
+    height: 150px;
+}
+
+#profile-help-information {
+    width: 50%;
+}
+
+#profile-help-information p {
+    font-size: 28px;
+}
+
+#aboutme-profile p {
+    margin-left: 40px;
+}
+
+#aboutme-profile ul {
+    list-style-type: decimal;
+    margin-left: 55px;
+}
+
+#aboutme-profile li {
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.border-for-profile-picture {
+    border: 4px solid aqua;
+    width: 200px;
+}
+
+#aboutme-profile h1 {
+    margin-left: 40px;
+}
+
+#services-profile p {
+    margin-left: 40px;
+}
+
+#services-profile li {
+    font-size: 32px;
+    font-style: oblique;
+}
+
+#services-profile h2 {
+    margin-left: 40px;
+}
+
+#services-profile ul {
+    margin-left: 25px;
+    list-style-type: square;
+}
+
+#more-information-information {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+#more-information-information h1 {
+    margin-left: 40px;
+}
+
+#insta {
+    width: 30%;
+    height: 55px;
+    background-color: antiquewhite;
+    border: 4px dashed tan;
+    text-align: center;
+    margin-left: 12px;
+}
+
+#insta a {
+    color: darkslategray;
+    font-size: 50px;
+}
+
+#face {
+    width: 30%;
+    height: 55px;
+    background-color: blue;
+    border: 4px dashed cornflowerblue;
+    text-align: center;
+    margin-left: 12px;
+}
+
+#face a {
+    color: white;
+    font-size: 50px;
+}
+
+#you {
+    width: 30%;
+    height: 55px;
+    background-color: brown;
+    border: 4px dashed lightcoral;
+    text-align: center;
+    margin-left: 12px;
+}
+
+#you a {
+    color: khaki;
+    font-size: 50px;
+}

@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Alkatra&display=swap");
+
+* {}
+
+h1,
+h3,
+p,
+a {
+    font-family: 'Alkatra', cursive;
+}
+
+h1,
+h3 {
+    text-align: center;
+}
+
+.images {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section,
+footer {
+    margin: 1rem;
+}
+
+nav {
+    border: 1px solid red;
+    border-radius: 1rem;
+    background-image: url("./images/gate.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav a {
+    background-color: lightgreen;
+    border-radius: .5rem;
+    padding: .5rem;
+    color: black;
+    text-align: center;
+    width: 80%;
+    margin: .5rem;
+    text-decoration: none;
+}
+
+.one {
+    display: flex;
+    justify-content: center;
+    height: 330px;
+    border: 1px solid green;
+    border-radius: 1rem;
+}
+
+.picture1 {
+    background-image: url("./images/fuji.jpg");
+    width: 300px;
+    height: 300px;
+    margin: 1rem;
+}
+
+.two {
+    background-color: #ffe4c4;
+    padding: 0.5em;
+    border-radius: 1rem;
+    border: 1px solid green;
+}
+
+.picture3 {
+    background-image: url("./images/ryutaro.jpg");
+    width: 300px;
+    height: 300px;
+    margin: 1rem auto;
+    border: 1px solid green;
+}
+
+.picture4klein {
+    background-image: url("./images/ricardo.jpg");
+    width: 100px;
+    height: 100px;
+    margin: 1rem;
+}
+
+.picture4gross {
+    background-image: url("./images/nightlife.jpg");
+    width: 300px;
+    height: 300px;
+    margin: 1rem;
+}
+
+.three {
+    background-color: #ffe4c4;
+    padding: 0.5em;
+    border-radius: 1rem;
+    border: 1px solid green;
+}
+
+.four {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffe4c4;
+    border: 1px solid green;
+    padding: 0.5em;
+    border-radius: 1rem;
+}
+
+footer {
+    background-color: #ffe4c4;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    border: 1px solid green;
+}
+
+@media (min-width: 768px) {
+    nav {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    nav a {
+        width: 20%;
+    }
+}
+
+@media (min-width: 1100px) {
+    nav {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    nav a {
+        width: 30%;
+    }
+}
