@@ -5,11 +5,12 @@ body {
 
 h1,
 h2 {
-    font-size: 34px;
+    font-size: 26px;
+    color: darkgray;
 }
 
 h3 {
-    font-size: 28px;
+    font-size: 22px;
 }
 
 #whole-profile {
@@ -43,11 +44,16 @@ h2 {
 }
 
 #profile-help-information {
-    width: 50%;
+    width: 100%;
 }
 
 #profile-help-information p {
-    font-size: 28px;
+    font-size: 26px;
+}
+
+#profile-help-information h2 {
+    font-size: 24px;
+    color: darkslategrey;
 }
 
 #aboutme-profile p {
