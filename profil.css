@@ -6,7 +6,7 @@ body {
 h1,
 h2 {
     font-size: 26px;
-    color: darkgray;
+    color: gray;
 }
 
 h3 {
@@ -15,13 +15,11 @@ h3 {
 
 #whole-profile {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     align-content: flex-start;
     justify-content: flex-start;
 }
-
-#main-profile {}
 
 #main-profile {
     margin-left: 40px;
@@ -35,8 +33,6 @@ h2 {
 #main-profile h3 {
     align-content: flex-start;
 }
-
-#main-profile p {}
 
 #profile-picture img {
     width: 200px;
@@ -77,6 +73,16 @@ h2 {
 
 #aboutme-profile h1 {
     margin-left: 40px;
+    color: gray;
+}
+
+#work-offer-information h2 {
+    font-size: 26px;
+}
+
+#certificates-information h1 {
+    font-size: 26px;
+    color: dimgray;
 }
 
 #services-profile p {
@@ -90,6 +96,7 @@ h2 {
 
 #services-profile h2 {
     margin-left: 40px;
+    color: lightslategray;
 }
 
 #services-profile ul {
@@ -97,10 +104,10 @@ h2 {
     list-style-type: square;
 }
 
-#more-information-information {
+#more-information-profile {
     display: flex;
     flex-wrap: nowrap;
-    flex-direction: row;
+    flex-direction: column;
     align-content: space-around;
     justify-content: space-evenly;
     align-items: flex-start;
@@ -111,12 +118,12 @@ h2 {
 }
 
 #insta {
-    width: 30%;
+    width: 340px;
     height: 55px;
     background-color: antiquewhite;
     border: 4px dashed tan;
     text-align: center;
-    margin-left: 12px;
+    margin-left: 40px;
 }
 
 #insta a {
@@ -125,12 +132,12 @@ h2 {
 }
 
 #face {
-    width: 30%;
+    width: 340px;
     height: 55px;
     background-color: blue;
     border: 4px dashed cornflowerblue;
     text-align: center;
-    margin-left: 12px;
+    margin-left: 40px;
 }
 
 #face a {
@@ -139,15 +146,51 @@ h2 {
 }
 
 #you {
-    width: 30%;
+    width: 340px;
     height: 55px;
     background-color: brown;
     border: 4px dashed lightcoral;
     text-align: center;
-    margin-left: 12px;
+    margin-left: 40px;
 }
 
 #you a {
     color: khaki;
     font-size: 50px;
+}
+
+#project-information-information h1 {
+    font-size: 26px;
+    color: lightslategrey;
+    margin-left: 40px;
+}
+
+#andras-seke-profile {
+    width: 300px;
+    height: 160px;
+    background-color: lightblue;
+    border: 4px dashed yellow;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+#andras-seke-profile a {
+    margin-left: 40px;
+    margin-top: 40px;
+    display: block;
+}
+
+#travel-profile {
+    width: 300px;
+    height: 160px;
+    background-color: lightblue;
+    border: 4px dashed yellow;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+#travel-profile a {
+    margin-left: 40px;
+    margin-top: 40px;
+    display: block;
 }
