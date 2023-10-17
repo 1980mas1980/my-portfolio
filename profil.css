@@ -117,7 +117,7 @@ h2 {
     margin-left: 40px;
 }
 
-#insta {
+#etsy {
     width: 340px;
     height: 55px;
     background-color: antiquewhite;
@@ -126,12 +126,12 @@ h2 {
     margin-left: 40px;
 }
 
-#insta a {
+#etsy a {
     color: darkslategray;
     font-size: 50px;
 }
 
-#face {
+#vest {
     width: 340px;
     height: 55px;
     background-color: blue;
@@ -140,12 +140,12 @@ h2 {
     margin-left: 40px;
 }
 
-#face a {
+#vest a {
     color: white;
     font-size: 50px;
 }
 
-#you {
+#gallery {
     width: 340px;
     height: 55px;
     background-color: brown;
@@ -154,7 +154,7 @@ h2 {
     margin-left: 40px;
 }
 
-#you a {
+#gallery a {
     color: khaki;
     font-size: 50px;
 }
